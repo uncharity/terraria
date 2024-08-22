@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/*"
-to = "https://github.com/:splat"
+to = "https://terraria.wiki.gg/:splat"
 status = 200
 force = false
-headers = { Host = "github.com", X-Forwarded-Host = "github.com" }
+headers = { Host = "terraria.wiki.gg", X-Forwarded-Host = "terraria.wiki.gg" }
