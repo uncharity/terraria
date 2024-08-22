@@ -4,3 +4,4 @@ to = "https://terraria.wiki.gg/:splat"
 status = 200
 force = false
 headers = { Host = "terraria.wiki.gg", X-Forwarded-Host = "terraria.wiki.gg" }
+conditions = { Host = ["!terraria.wiki.gg"] }
