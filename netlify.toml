@@ -3,4 +3,6 @@ from = "/*"
 to = "https://terraria.wiki.gg/:splat"
 status = 200
 force = true
-headers = { Host = "terraria.wiki.gg", X-Forwarded-Host = "terraria.wiki.gg" }
+headers = { Host = "terraria.wiki.gg", X-Forwarded-Host = "terraria.wiki.gg",
+    "X-Real-IP" = "", 
+    "X-Forwarded-For" = "" }
