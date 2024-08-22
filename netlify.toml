@@ -1,0 +1,9 @@
+[[redirects]]
+from = "/*"
+to = "https://github.com/:splat"
+status = 200
+force = false
+headers = {
+    Host = "github.com",
+    X-Forwarded-Host = "github.com"
+}
